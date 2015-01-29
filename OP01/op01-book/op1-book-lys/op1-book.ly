@@ -64,7 +64,6 @@
 \include "../../p2/p2-lys/p2-mus.ily"
 \bookpart {
   \tocItem \markup { "Prélude II (Two)"  }
-  \include "../../p2/p2-lys/p2-heads.ily"
   \include "../../p2/p2-lys/p2-lyt.ily"
 }
 
@@ -72,6 +71,5 @@
 \include "../../p3/p3-lys/p3-mus.ily"
 \bookpart {
   \tocItem \markup { "Prélude III (Three)"  }
-  \include "../../p3/p3-lys/p3-heads.ily"
   \include "../../p3/p3-lys/p3-lyt.ily"
 }

@@ -9,7 +9,8 @@
 %     staff size within the \layout block for the corresponding \score.
 #(set-global-staff-size 18)
 
-\include "paper-defs.ily"
+% --- Global definitions and paper specs
+\include "op01-defs.ily"
 
 %% -- PRINT COLLECTION BOOK
 \bookpart {   % --- Cover pages
@@ -53,16 +54,13 @@
 } % - end cover pages bookpart
 
 % --- Prelude 1
-\include "../../p1/p1-lys/p1-defs.ily"
 \include "../../p1/p1-lys/p1-mus.ily"
 \bookpart {
   \tocItem \markup { "Prélude I (One)"  }
-  \include "../../p1/p1-lys/p1-heads.ily"
   \include "../../p1/p1-lys/p1-lyt.ily"
 }
 
 % --- Prelude 2
-\include "../../p2/p2-lys/p2-defs.ily"
 \include "../../p2/p2-lys/p2-mus.ily"
 \bookpart {
   \tocItem \markup { "Prélude II (Two)"  }
@@ -71,7 +69,6 @@
 }
 
 % --- Prelude 3
-\include "../../p3/p3-lys/p3-defs.ily"
 \include "../../p3/p3-lys/p3-mus.ily"
 \bookpart {
   \tocItem \markup { "Prélude III (Three)"  }
